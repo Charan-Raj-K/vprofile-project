@@ -3,6 +3,7 @@ services:
   vprodb:
     build:
       context: ./Docker-files/db
+      dockerfile: Dockerfile
     image: charanrajkumar9/vprofiledb
     container_name: vprodb
     ports:
